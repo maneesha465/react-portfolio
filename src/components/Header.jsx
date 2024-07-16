@@ -9,7 +9,7 @@ function Header() {
   return (
       <Navbar bg="dark"  variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand  as={Link} to="/">MANESSHA MA</Navbar.Brand>
+          <Navbar.Brand  as={Link} to="/">MANEESHA MA</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="ms-auto">
@@ -24,5 +24,6 @@ function Header() {
       </Navbar>
   );
 }
+
 
 export default Header;
